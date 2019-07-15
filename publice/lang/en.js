@@ -22,4 +22,9 @@ module.exports = {
     info: 'Has been cancelled!'
   },
 
+  test: {
+    t1: 'test lan',
+    t2: 'test lan1'
+  }
+
 }

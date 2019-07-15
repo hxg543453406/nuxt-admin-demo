@@ -12,4 +12,8 @@ module.exports = {
         tips: '提示',
         info: '已经取消!'
     },
+    test: {
+        t1: '测试语言',
+        t2: '测试语言2',
+    }
 }

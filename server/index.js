@@ -2,6 +2,7 @@
 const express = require('express')
 const consola = require('consola')
 const crypto= require('crypto')
+const open= require('open')
 const { Nuxt, Builder } = require('nuxt')
 const bodyParser = require('body-parser')
 const app = express()
@@ -34,5 +35,7 @@ async function start() {
     message: `Server listening on http://${host}:${port}`,
     badge: true
   })
+
+  await open(`http://${host}:${port}`);
 }
 start()

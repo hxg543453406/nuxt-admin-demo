@@ -60,7 +60,8 @@
       role() {
         return this.name === 'root' ? '超级管理员' : '普通用户';
       }
-    }
+    },
+    asyncData
   }
 
 </script>
