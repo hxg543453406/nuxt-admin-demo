@@ -440,6 +440,7 @@ const store = () => new Vuex.Store({
         ]
     },
     SET_LANG(state, locale) {
+      console.log(locale)
       if (state.locales.indexOf(locale) !== -1) {
         state.locale = locale
       }

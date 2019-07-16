@@ -44,7 +44,7 @@ module.exports = {
     '@/plugins/element-ui',
     '@/plugins/crypto',
     '@/plugins/axios',
-    {src:'@/plugins/cookies.js',ssr:false},
+    {src:'@/plugins/cookies.js'},
     {src:'@/plugins/util.js'},
     '@/plugins/i18n.js',
     '@/plugins/init.js',

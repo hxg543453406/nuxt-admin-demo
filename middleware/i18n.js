@@ -1,6 +1,13 @@
-export default function({
-                          isHMR, app, store, route, params, error, redirect
-                        }) {
+export default function ({
+  isHMR,
+  app,
+  store,
+  route,
+  params,
+  error,
+  redirect
+}) {
+
   if (isHMR) { // ignore if called from hot module replacement
     return
   } // if url does not have language, redirect to english
